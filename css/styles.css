@@ -50,13 +50,13 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-nav-item {
+.header-nav-link {
   color: #212121;
   text-decoration: none;
 }
 
-.header-nav-item:hover,
-.header-nav-item:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
   color: var(--accent-color);
 }
 
@@ -136,11 +136,11 @@ body {
 
 /* .team-list */
 
-.team-list-item {
+.team-list-link {
   text-decoration: none;
 }
 
-.team-list-item-title {
+.team-list-link-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -148,7 +148,7 @@ body {
   color: #212121;
 }
 
-.team-list-item-descr {
+.team-list-link-descr {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -166,13 +166,22 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-white-color);
+  text-decoration: none;
 }
 
 .footer-contacts-link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: var(--accent-color);
+}
+
 
 
 /* Portfolio page */
@@ -197,18 +206,18 @@ body {
 
 /* portfolio */
 
-.list .portfolio-item {
+.list .portfolio-link {
   text-decoration: none;
 }
 
-.list .portfolio-item-title {
+.list .portfolio-link-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 
-.list .portfolio-item-descr {
+.list .portfolio-link-descr {
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
