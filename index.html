@@ -19,29 +19,30 @@
 
   <body>
     <header class="header">
-      <div class="container">
-        <nav>
-          <a href="" class="logo"><span class="logo-accent">Web</span>Studio</a>
+      <div class="main-nav container">
 
-          <ul class="header-nav list">
-            <li>
-              <a href="" class="header-nav-link active">Studio</a>
+        <a href="" class="logo"><span class="logo-accent">Web</span>Studio</a>
+        
+        <nav>
+          <ul class="nav list">
+            <li class="nav-item">
+              <a href="" class="nav-item-link active">Studio</a>
             </li>
-            <li>
-              <a href="./portfolio.html" class="header-nav-link">Portfolio</a>
+            <li class="nav-item">
+              <a href="./portfolio.html" class="nav-item-link">Portfolio</a>
             </li>
-            <li>
-              <a href="" class="header-nav-link">Contacts</a>
+            <li class="nav-item">
+              <a href="" class="nav-item-link">Contacts</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="header-contacts list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="header-contacts-link">info@devstudio.com</a>
+        <ul class="contacts list">
+          <li class="contacts-item">
+            <a href="mailto:info@devstudio.com" class="contacts-item-link">info@devstudio.com</a>
           </li>
-          <li>
-            <a href="tel:+380961111111" class="header-contacts-link">+38 096 111 11 11</a>
+          <li class="contacts-item">
+            <a href="tel:+380961111111" class="contacts-item-link">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -55,37 +56,37 @@
       </section>
 
       <!-- Features -->
-      <section class="features">
+      <section class="section">
         <div class="container">
-          <h2 class="hidden">Features</h2>
+          <!-- <h2 class="hidden">Features</h2> -->
           
           <ul class="features-list list">
-            <li>
-              <h3 class="features-list-title">Attention to detail</h3>
-              <p class="features-list-descr">
+            <li class="features-list-item">
+              <h3 class="features-list-item-title">Attention to detail</h3>
+              <p class="features-list-item-descr">
                 Ideological considerations, as well as the beginning of daily work
                 on the formation of a position.
               </p>
             </li>
           
-            <li>
-              <h3 class="features-list-title">Punctuality</h3>
-              <p class="features-list-descr">
+            <li class="features-list-item">
+              <h3 class="features-list-item-title">Punctuality</h3>
+              <p class="features-list-item-descr">
                 The task of the organization, in particular the framework and
                 place of training of personnel entails.
               </p>
             </li>
           
-            <li>
-              <h3 class="features-list-title">Planning</h3>
-              <p class="features-list-descr">
+            <li class="features-list-item">
+              <h3 class="features-list-item-title">Planning</h3>
+              <p class="features-list-item-descr">
                 Similarly, consultation with a broad asset is largely conditional.
               </p>
             </li>
           
-            <li>
-              <h3 class="features-list-title">Modern technologies</h3>
-              <p class="features-list-descr">
+            <li class="features-list-item">
+              <h3 class="features-list-item-title">Modern technologies</h3>
+              <p class="features-list-item-descr">
                 The significance of these problems is so obvious that the
                 implementation of planned targets.
               </p>
@@ -95,36 +96,40 @@
       </section>
 
       <!-- What are we doing -->
-      <section class="services">
+      <section class="services section">
         <div class="container">
           <h2 class="services-title">What are we doing</h2>
           
           <ul class="services-list list">
-            <li>
-              <img src="./img/doing/laptop.jpg" alt="laptop" width="370">
+            <li class="services-list-item">
+              <img src="./img/doing/one.jpg" alt="a person looks at the tablet and prints on the keyboard" width="370"
+              class="img" >
             </li>
           
-            <li>
-              <img src="./img/doing/smartphone.jpg" alt="smartphone" width="370">
+            <li class="services-list-item">
+              <img src="./img/doing/two.jpg" alt="a person holds a telephone in the left hand and uses the touchpad on a laptop her the right hand" 
+              width="370" class="img">
             </li>
           
-            <li>
-              <img src="./img/doing/monitor.jpg" alt="monitor" width="370">
+            <li class="services-list-item">
+              <img src="./img/doing/three.jpg" 
+              alt="a person holds a tablet in the left hand with a color palette in the form of a hexagon on the display and holds a stylus in the right hand"
+              width="370" class="img">
             </li>
           </ul>
         </div>
       </section>
 
       <!-- Our team -->
-      <section class="team">
+      <section class="team section">
         <div class="container">
           <h2 class="team-title">Our team</h2>
           
           <ul class="team-list list">
-            <li>
+            <li class="team-list-item">
               <a href="" class="team-list-link">
-                <img src="./img/our-team/nicholas.jpg" alt="nicolas' photo" width="270" class="photo">
-                <h3 class="team-list-link-title">Nikolay Kucherenko</h3>
+                <img src="./img/our-team/ihor.jpg" alt="ihor's photo" width="270" class="img">
+                <h3 class="team-list-link-title">Ihor Demyanenko</h3>
                 <p class="team-list-link-descr">Product Designer</p>
               </a>
             
@@ -136,10 +141,10 @@
               </ul>
             </li>            
           
-            <li>
+            <li class="team-list-item">
               <a href="" class="team-list-link">
-                <img src="./img/our-team/olga.jpg" alt="olga's photo" width="270" class="photo">
-                <h3 class="team-list-link-title">Olga Ivanova</h3>
+                <img src="./img/our-team/olga.jpg" alt="olga's photo" width="270" class="img">
+                <h3 class="team-list-link-title">Olga Repina</h3>
                 <p class="team-list-link-descr">Frontend Developer</p>
               </a>
           
@@ -151,10 +156,10 @@
               </ul>
             </li>
           
-            <li>
+            <li class="team-list-item">
               <a href="" class="team-list-link">
-                <img src="./img/our-team/andrey.jpg" alt="andrey's photo" width="270" class="photo">
-                <h3 class="team-list-link-title">Andrey Shevchenko</h3>
+                <img src="./img/our-team/mykola.jpg" alt="mykola's photo" width="270" class="img">
+                <h3 class="team-list-link-title">Mykola Tarasov</h3>
                 <p class="team-list-link-descr">Marketing</p>
               </a>
           
@@ -166,10 +171,10 @@
               </ul>
             </li>
           
-            <li>
+            <li class="team-list-item">
               <a href="" class="team-list-link">
-                <img src="./img/our-team/ivan.jpg" alt="ivan's photo" width="270" class="photo">
-                <h3 class="team-list-link-title">Ivan Nikolaev</h3>
+                <img src="./img/our-team/mykhailo.jpg" alt="mykhailo's photo" width="270" class="img">
+                <h3 class="team-list-link-title">Mykhailo Yermakov</h3>
                 <p class="team-list-link-descr">UI Designer</p>
               </a>
           
@@ -185,27 +190,29 @@
       </section>
 
       <!-- Regular customers -->
-      <section>
-        <h2>Regular customers</h2>
-        <ul>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <h2 class="customers-title">Regular customers</h2>
+          <ul class="customers-list list">
+            <li class="customers-list-item"><a href=""></a></li>
+            <li class="customers-list-item"><a href=""></a></li>
+            <li class="customers-list-item"><a href=""></a></li>
+            <li class="customers-list-item"><a href=""></a></li>
+            <li class="customers-list-item"><a href=""></a></li>
+            <li class="customers-list-item"><a href=""></a></li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <div class="footer-contacts">
+      <div class="footer-page container">
+        <div class="footer-page-contacts">
           <a href="" class="logo"><span class="logo-accent">Web</span>Studio</a>
           <address>
-            <a href="" class="footer-contacts-adress">Kyiv, Lesia Ukrainka Ave, 26</a>
-            <a href="mailto:info@example.com" class="footer-contacts-link">info@example.com</a>
-            <a href="tel:+380991111111" class="footer-contacts-link">+38 099 111 11 11</a>
+            <a href="" class="footer-page-contacts-adress">Kyiv, Lesia Ukrainka Ave, 26</a>
+            <a href="mailto:info@example.com" class="footer-page-contacts-link">info@example.com</a>
+            <a href="tel:+380991111111" class="footer-page-contacts-link">+38 099 111 11 11</a>
           </address>
         </div>
         
